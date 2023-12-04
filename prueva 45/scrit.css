@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+  }
+  
+  header {
+    background-color: #000;
+    height: 60px;
+    padding: 20px;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header .logo {
+    width: 10px;
+  }
+  
+  header .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header .nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header .nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    margin-top: 60px;
+  }
+  
+  .ropa, .accesorios, .ofertas, .contacto {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .ropa h2, .accesorios h2, .ofertas h2, .contacto h2 {
+    text-align: center;
+  }
+  
+  .categorias li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .categorias li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .productos li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .productos li img {
+    width: 200px;
+  }
+  
+  .productos li h3 {
+    margin-bottom: 10px;
+  }
+  
+  .productos li p {
+    font-size: 14px;
+  }
+  
+  footer {
+    background-color: #000;
+    height: 40px;
+    padding: 10px;
+  }
+  
+  footer .container {
+    text-align: center;
+  }
+  
